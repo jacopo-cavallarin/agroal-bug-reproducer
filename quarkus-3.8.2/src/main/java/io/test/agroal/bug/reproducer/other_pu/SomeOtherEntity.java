@@ -14,14 +14,6 @@ public class SomeOtherEntity {
 
     Long number;
 
-    public UUID getId() {
-        return id;
-    }
-
-    public Long getNumber() {
-        return number;
-    }
-
     public SomeOtherEntity setNumber(Long number) {
         this.number = number;
         return this;
